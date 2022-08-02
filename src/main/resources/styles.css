@@ -1,0 +1,28 @@
+Button {
+    -fx-background-color: #f0f0ff;
+    -fx-background-radius:6;
+}
+
+ScrollPane {
+    -fx-background-color: #f0f0ff;
+    -fx-background-radius: 12;
+    -fx-min-height: 620;
+    -fx-min-width: 900;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+HBox {
+    -fx-background-color: #ffffff;
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 16;
+}
+
+#tittle {
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-font-size: 24;
+}
